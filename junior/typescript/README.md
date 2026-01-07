@@ -33,8 +33,8 @@ Tu solución debe pasar los siguientes casos de prueba:
 ---
 
 ## 📝 Tu Solución
-
-Deja acá el link a tu video explicando tu solución con tus palabras
+Link video: 
+https://youtu.be/THp4a1e10OY
 
 ---
 
@@ -58,5 +58,7 @@ Si completaste alguno de los ejercicios bonus, explica tu solución aquí:
 
 ## 🤔 Supuestos y Decisiones
 
-*[Si tuviste que tomar algún supuesto o decisión de diseño, explícalo aquí]*
+- Doble Escenario: El código no asume que una orientación es mejor que otra. Calcula el total de la Orientación A y la Orientación B por separado y elige el máximo al final.
+- Lógica de "Rescate": Se asume que después de llenar el bloque principal, pueden quedar franjas vacías en los bordes. El código calcula el ancho y alto sobrante para intentar encajar paneles rotados.
+- Forma sobre Área: No se usa el área total ($m^2$), sino las dimensiones físicas. Esto asegura que los paneles no se "corten" ni se solapen, respetando que son objetos rígidos.
 
