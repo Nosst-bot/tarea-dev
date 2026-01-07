@@ -20,6 +20,62 @@
       "roofW": 1,
       "roofH": 10,
       "expected": 0
+    },
+    {
+      "panelW": 3,
+      "panelH": 2,
+      "roofW": 6,
+      "roofH": 4,
+      "expected": 4
+    },
+    {
+      "panelW": 2,
+      "panelH": 3,
+      "roofW": 5,
+      "roofH": 10,
+      "expected": 8
+    },
+    {
+      "panelW": 2,
+      "panelH": 2,
+      "roofW": 2,
+      "roofH": 2,
+      "expected": 1
+    },
+    {
+      "panelW": 5,
+      "panelH": 5,
+      "roofW": 20,
+      "roofH": 10,
+      "expected": 8
+    },
+    {
+      "panelW": 4,
+      "panelH": 3,
+      "roofW": 10,
+      "roofH": 12,
+      "expected": 9
+    },
+    {
+      "panelW": 3,
+      "panelH": 4,
+      "roofW": 9,
+      "roofH": 8,
+      "expected": 6
+    },
+    {
+      "panelW": 3,
+      "panelH": 2,
+      "roofW": 10,
+      "roofH": 7,
+      "expected": 10
+    },
+    {
+      "panelW": 2,
+      "panelH": 3,
+      "roofW": 5,
+      "roofH": 4,
+      "expected": 3
     }
   ]
 }
